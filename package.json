@@ -1,0 +1,44 @@
+{
+    "author": "Logan Reich",
+    "dependencies": {},
+    "keywords": [],
+    "name": "ou-watchface",
+    "pebble": {
+        "capabilities": [
+            "health"
+        ],
+        "displayName": "Ohio Bobcats Watchface",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/ohio-logo-icon",
+                    "menuIcon": true,
+                    "name": "OHIO_LOGO_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/ohio-logo-shrunk",
+                    "name": "OHIO_LOGO_SHRUNK",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "diorite",
+            "emery"
+        ],
+        "uuid": "716526b1-20f4-49fd-b008-7140a0d3f3a2",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
